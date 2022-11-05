@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-        <h1 className='text-5xl font-semibold mt-5 text-center'>Bye World!</h1>
+        <h1 className='text-5xl font-semibold mt-5 text-center'>GitHub Go - Team 10</h1>
     </div>
   );
 }
