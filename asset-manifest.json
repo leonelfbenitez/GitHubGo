@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GitHubGo/static/css/main.f91f1d84.css",
+    "main.js": "/GitHubGo/static/js/main.1a022074.js",
+    "index.html": "/GitHubGo/index.html",
+    "main.f91f1d84.css.map": "/GitHubGo/static/css/main.f91f1d84.css.map",
+    "main.1a022074.js.map": "/GitHubGo/static/js/main.1a022074.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f91f1d84.css",
+    "static/js/main.1a022074.js"
+  ]
+}
