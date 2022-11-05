@@ -8,8 +8,8 @@
 #### Node.js
 This project requires Node.js. To check if your device has node.js installed, open your terminal and type:
 
-```bash
-> node -v
+```console
+node -v
 ```
 
 * If it is displaying any version, then it is installed!
@@ -23,8 +23,8 @@ This project requires Node.js. To check if your device has node.js installed, op
 
 For this project, we are using yarn as our package manager. Inside your terminal, type:
 
-```bash
-> npm i -g yarn
+```console
+npm i -g yarn
 ```
 <br/>
 
@@ -32,8 +32,8 @@ For this project, we are using yarn as our package manager. Inside your terminal
 
 Go to the folder where you want to clone this project, and type the following in your terminal:
 
-```bash
-> git clone "https://github.com/CSC4350-TR/GitHubGo.git"
+```console
+git clone "https://github.com/CSC4350-TR/GitHubGo.git"
 ```
 <br />
 
@@ -42,8 +42,8 @@ Go to the folder where you want to clone this project, and type the following in
 
 Go to your project folder and write the following in your terminal:
 
-```bash
-> yarn
+```console
+yarn
 ```
 
 * This will install all the dependencies that are in the package.json file
@@ -54,8 +54,8 @@ Go to your project folder and write the following in your terminal:
 
 Open your project folder and type this in your terminal:
 
-```bash
-> yarn start
+```console
+yarn start
 ```
 
 The website will run on `localhost:3000`
