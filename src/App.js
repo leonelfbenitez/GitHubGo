@@ -1,10 +1,18 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import BlameFile from './pages/blamefile';
+import Home from './pages/home';
+import PageNotFound from './pages/pagenotfound';
+import RepoStats from './pages/repostats';
 
 function App() {
   return (
-    <div>
-        <h1 className='text-5xl font-semibold mt-5 text-center'>GitHub Go - Team 10</h1>
-    </div>
+    <Routes>
+      <Route path='/GitHubGo/' element={<Home />} />
+      <Route path='/GitHubGo/repostats' element={<RepoStats />} />
+      <Route path='/GitHubGo/blamefile' element={<BlameFile />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
   );
 }
 
