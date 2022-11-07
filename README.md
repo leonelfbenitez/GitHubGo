@@ -35,7 +35,7 @@ npm i -g yarn
 Go to the folder where you want to clone this project, and type the following in your terminal:
 
 ```console
-git clone "https://github.com/CSC4350-TR/GitHubGo.git"
+git clone https://github.com/CSC4350-TR/GitHubGo.git
 ```
 
 <br />
@@ -61,6 +61,16 @@ yarn start
 ```
 
 The website will run on `localhost:3000`
+
+<br/>
+
+#### Website Deployment
+
+To deploy the lastest changes to the production website, run:
+
+```console
+yarn run deploy
+```
 
 #### Note
 
